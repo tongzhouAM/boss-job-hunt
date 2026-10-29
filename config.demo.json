@@ -1,0 +1,27 @@
+{
+  "cities": {"上海": "101020100", "杭州": "101210100"},
+  "salary_min_mid": 15,
+  "search_keywords": ["测试开发", "自动化测试", "测试工程师", "QA工程师", "软件测试"],
+  "allowed_roles": ["测试/检测", "研发"],
+  "loose_roles_extra": ["产品"],
+  "experience_max_years": 5,
+  "degrees_reject": ["博士", "硕士"],
+  "edu_flag_words": [],
+  "edu_warn_words": ["统招"],
+  "hard_skill_blacklist": ["Verilog", "LabVIEW", "PLC编程"],
+  "role_tiers": [
+    {"keywords": ["测试开发", "自动化测试", "测试工程师", "QA", "质量工程"], "points": 38, "tag": "测试/检测"},
+    {"keywords": ["性能测试", "接口测试", "功能测试", "软件测试"], "points": 34, "tag": "测试/检测"},
+    {"keywords": ["Python", "Java", "开发工程师", "测试平台"], "points": 22, "tag": "研发"},
+    {"keywords": ["产品经理"], "points": 15, "tag": "产品"},
+    {"keywords": ["销售", "售前", "地推", "电销"], "points": -25, "tag": "销售类"}
+  ],
+  "industry": {
+    "high": ["软件", "互联网", "SaaS", "云计算", "智能", "数据", "AI", "物联网"],
+    "mid": ["制造", "汽车", "硬件", "消费电子"],
+    "low": ["地产", "教育", "餐饮", "零售", "传媒"]
+  },
+  "ai_keywords": ["AI", "人工智能", "大模型", "自动化"],
+  "agency_keywords": ["人力资源", "劳务", "派遣", "外包"],
+  "limits": {"daily_cap": 15, "run_limit": 8, "scrolls": 3, "top": 20, "interval": [10, 18]}
+}

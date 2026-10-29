@@ -1,0 +1,27 @@
+# 本地运行时产物（含登录态，绝不入库）
+browser-profile/
+data/
+__pycache__/
+*.png
+*.woff2
+
+# 个人配置与人设（模板 config.demo.json 与 examples/ 示例保留）
+config.json
+config.*.json
+!config.demo.json
+!config.zhangsan.generated.json
+
+# 个人求职情报与简历类（绝不入库）
+JD情报*
+简历*
+resume*.docx
+resume*.pdf
+build_pdf_*.py
+docx2pdf.ps1
+*.docx
+*.pdf
+*.xlsx
+
+# 其它
+*.log
+.DS_Store

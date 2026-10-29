@@ -1,0 +1,47 @@
+{
+  "search_keywords": [
+    "测试开发", "自动化测试", "测试工程师", "QA工程师", "软件测试",
+    "测试平台", "SDET", "质量工程师"
+  ],
+  "cities": {"上海": "101020100"},
+  "salary_min_mid": 15,
+  "allowed_roles": ["测试/检测", "研发"],
+  "loose_roles_extra": ["产品"],
+  "experience_max_years": 7,
+  "degrees_reject": ["硕士", "博士"],
+  "edu_warn_words": ["统招", "全日制"],
+  "title_blacklist": [
+    "校招", "应届", "实习", "兼职", "保险",
+    "嵌入式", "单片机", "FPGA", "芯片", "前端", "后端开发", "运维", "网络工程师"
+  ],
+  "domain_bonus": {
+    "keywords": ["自动化", "测试平台", "质量工程", "测试开发", "CI"],
+    "points": 30
+  },
+  "hard_skill_blacklist": [
+    "Verilog", "LabVIEW", "PLC编程", "FPGA", "单片机"
+  ],
+  "role_tiers": [
+    {"keywords": ["测试开发", "SDET", "测试平台", "质量工程"], "points": 38, "tag": "测试/检测"},
+    {"keywords": ["自动化测试", "接口测试", "功能测试", "软件测试", "测试工程师", "QA"], "points": 34, "tag": "测试/检测"},
+    {"keywords": ["Python", "开发工程师", "测试工具"], "points": 22, "tag": "研发"},
+    {"keywords": ["产品经理"], "points": 15, "tag": "产品"},
+    {"keywords": ["销售", "售前", "地推", "电销"], "points": -25, "tag": "销售类"}
+  ],
+  "industry": {
+    "high": ["软件", "互联网", "SaaS", "云计算", "智能", "数据", "AI", "物联网", "电商"],
+    "mid": ["制造", "汽车", "硬件", "消费电子"],
+    "low": ["地产", "教育", "餐饮", "零售", "传媒", "医药"]
+  },
+  "ai_keywords": ["AI", "人工智能", "大模型", "自动化"],
+  "agency_keywords": ["人力资源", "劳务", "派遣", "外包"],
+  "limits": {"daily_cap": 15, "run_limit": 8, "scrolls": 3, "top": 20, "interval": [10, 18]},
+  "meta": {
+    "profile_summary": "7年测试开发（Python/pytest/Selenium），接口自动化+UI自动化+压测，找上海15K+的测试开发/自动化测试岗",
+    "advice": [
+      "简历突出『1200+用例夜跑』『覆盖率0→85%』『冒烟40→8min』这类量化结果",
+      "搜索词重点跑『测试开发』，纯『软件测试』岗会偏功能测试，薪资低于底线会被自动过滤",
+      "经验7年，JD要10年以上会被硬拦，这是保护性设计不要放宽"
+    ]
+  }
+}
